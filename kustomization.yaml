@@ -1,8 +1,8 @@
 resources:
-- mongo-deployment.yaml
-- pacman-deployment.yaml
-- mongo-pvc.yaml
-- rbac.yaml
-- secret.yaml
-- mongo-service.yaml
-- pacman-service.yaml
+- base/mongo-deployment.yaml
+- base/pacman-deployment.yaml
+- base/mongo-pvc.yaml
+- base/rbac.yaml
+- base/secret.yaml
+- base/mongo-service.yaml
+- base/pacman-service.yaml
